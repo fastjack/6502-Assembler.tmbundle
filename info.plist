@@ -7,7 +7,7 @@
 	<key>contactName</key>
 	<string>Martin Maciaszek</string>
 	<key>description</key>
-	<string>New shiny bundle for X.</string>
+	<string>Support for the ACME cross assembler (http://sourceforge.net/p/acme-crossass/wiki/Home/)</string>
 	<key>isDisabled</key>
 	<false/>
 	<key>name</key>
