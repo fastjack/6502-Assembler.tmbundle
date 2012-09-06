@@ -109,6 +109,24 @@
 			<string>(\!source|\!src)\s*([\"&lt;][^\"&gt;]+[\"&gt;])</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>meta.preprocessor.program-counter</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\*)=</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\!(initmem|pseudopc|al|as|rl|rs)</string>
+			<key>name</key>
+			<string>meta.preprocessor</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>"</string>
 			<key>end</key>
